@@ -1,0 +1,80 @@
+\# Program start time:     UTC 2026.08.26 12:50:22.525
+\# Local time: IST (UTC+05:30) 2026.08.26 18:20:22.525
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cad3 -beanport 11300 -beanbinlog  -beanLogFile /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/amps_Service1.log -mpssession virtuoso3879819 -mpshost cad3 -davinciService DaVinciService_3879819_1787748617 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 429a44af-930f-4c47-9253-623f66501d96 -heartbeat /dev/shm/swift-heartbeat.QZnAIvj6sn -log /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D79EB9B739E06D02C02D0EC7EFC06BC4D5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0C6D6E131D0AD6C300001E87 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cad3 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2539 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        643 MB
+\# Available memory:	     25,866 MB
+\# System memory:	     32,105 MB
+\# Maximum memory size:	     31,583 MB
+\# Max mem available:	     25,986 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62624/62624 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsilab
+\o Working Directory:	cad3:/home/vlsilab/CSRO_PVG
+\# Process Id:		3900640
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\# Available memory:         25,786 MB at UTC 2026.08.26 12:50:33.695
+\# Memory report: Maximum memory size now 25,987 MB at UTC 2026.08.26 12:50:33.695
+\# Thread usage report: 33 active threads, active load 1.40 at UTC 2026.08.26 12:50:33.695
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\# Memory report: using         377 MB, process size 2,115 MB at UTC 2026.08.26 12:51:19.780
+\o INFO (DB-170018): (dbPanic) dumping stack
+\o libvirtuos_sh.so:voStackTrace+58()
+\o virtuoso:dbPanic+444()
+\o libvirtuos_sh.so:voDoAbortFuncs+116()
+\o libvirtuos_sh.so:voSigAbortInfo+360()
+\o libpthread.so.0:__restore_rt+0()
+\o libil_sh.so:_ZN18iltLocalParserData12iltStringBufpLEc+6()
+\o libil_sh.so:_Z12ilFillBufferPcPmiPv+871()
+\o libil_sh.so:_Z7ilyylexP9ILYYSTYPEP9ILYYLTYPEPv+23906()
+\o libil_sh.so:_Z9ilyyparsePvP18iltLocalParserData+2549()
+\o libil_sh.so:ilParserReent+49()
+\o libil_sh.so:ilReadport+537()
+\o libil_sh.so:iliLoadPort+413()
+\o libil_sh.so:iliVcodeEval2C+32815()
+\o libil_sh.so:iliVcodeEval2+71()
+\o libil_sh.so:ilxSkillEval2+224()
+\o libil_sh.so:_ilTopLevelSet+167()
+\o libil_sh.so:ilxTopLevelCmd+219()
+\o libil_sh.so:ilLoadCapContext+525()
+\o libil_sh.so:iliInitClients+1479()
+\o virtuoso:main+309()
+\o libc.so.6:__libc_start_main+229()
+\o virtuoso:_start+41()

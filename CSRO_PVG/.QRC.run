@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 22.1.1-p041
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/vlsilab/CSRO_PVG/qrc.csro.log -cmd /home/vlsilab/CSRO_PVG/qrc.csro.ccl 

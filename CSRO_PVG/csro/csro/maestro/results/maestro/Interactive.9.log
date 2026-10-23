@@ -1,0 +1,58 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Aug 26 23:46:00 2026 
+Best design point: 1
+Design specs: 
+	CSRO_csro_1	corner	C0 - 
+	freq		13.87G
+	power		469.9u
+	CSRO_csro_1	corner	C1 - 
+	freq		10.99G
+	power		379.1u
+	CSRO_csro_1	corner	C2 - 
+	freq		7.847G
+	power		279.6u
+	CSRO_csro_1	corner	C3 - 
+	freq		12.61G
+	power		381.7u
+	CSRO_csro_1	corner	C4 - 
+	freq		9.969G
+	power		305.3u
+	CSRO_csro_1	corner	C5 - 
+	freq		7.157G
+	power		226.1u
+	CSRO_csro_1	corner	C6 - 
+	freq		10.46G
+	power		331.4u
+	CSRO_csro_1	corner	C7 - 
+	freq		8.08G
+	power		261.2u
+	CSRO_csro_1	corner	C8 - 
+	freq		5.657G
+	power		188.9u
+	CSRO_csro_1	corner	C9 - 
+	freq		7.646G
+	power		244.6u
+	CSRO_csro_1	corner	C10 - 
+	freq		5.756G
+	power		190.1u
+	CSRO_csro_1	corner	C11 - 
+	freq		3.953G
+	power		136.3u
+	CSRO_csro_1	corner	C12 - 
+	freq		7.072G
+	power		209.7u
+	CSRO_csro_1	corner	C13 - 
+	freq		5.325G
+	power		161.6u
+	CSRO_csro_1	corner	C14 - 
+	freq		3.658G
+	power		115u
+Design parameters: 
+	Vctrl		1
+
+Interactive.9
+Number of points completed: 5
+Number of simulation errors: 0
+Interactive.9 completed. 
+Current time: Wed Aug 26 23:48:05 2026 

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+cd "/home/vlsilab/CSRO_PVG"
+
+export CDS_USE_XVFB=1
+
+/home/install/IC618/tools.lnx86/dfII/bin/spectreMonitor -mpssession "virtuoso3750267" -mpshost "cad6" --davinciService DaVinciService_3750267_1790485885 --axlsession fnxSession8 -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D79EB9B739E06D02C02D5EC7EFC06BC4D5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0C5B33914088D6F500001E6D -beanhost "cad6" -beanport 11300 -beanLogFile "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/amps_Job16.log"  -beanbinlog "" --domain 0 --interactive yes --netlistOpt no --useMultiPointEvaluation yes --evalSimParallel no --maxSims 0 --exprEvaluator vds --mcMapping mc1.mapping --checkLogStatusInterval 0  --exprEvalMaxTries 3  --maxNFSSyncWait 60  --virtuosoBinary "virtuoso" --guiDisplay cad6:1 --globalStatus 60  --evaluateMultiMC yes --evalOnSimFail SkipFailedAnalyses --numRetriesOnError 1 --fenixMode explorer --lingertimeout 300 --sdbLib CSRO --sdbCell csro_tb --sdbView maestro --heartBeatFileDir /dev/shm --id 16 --uuid "fb668b4d-7aa5-4407-a934-a7b1fe798654" --log "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Job16.log" &
+
+JOB_PID=$!
+HOST_NAME=$(hostname)
+printf "Simulation Monitor process '$JOB_PID' is starting up on host '$HOST_NAME'"
+wait $JOB_PID
+status=$?
+if [ $status != 0 ]; then
+  /home/install/IC618/tools.lnx86/bin/checkSysConf IC6.1.8 > /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Job16.log.checkSysConf
+fi
+exit $status
+

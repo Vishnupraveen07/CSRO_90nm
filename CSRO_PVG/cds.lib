@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/vlsilab/cds.lib
+DEFINE CSRO /home/vlsilab/CSRO_PVG/CSRO

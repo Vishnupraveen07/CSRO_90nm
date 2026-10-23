@@ -1,0 +1,1781 @@
+<?xml version="1.0"?>
+<setupdb version="6">maestro
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">C0
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C1
+				<vars>
+					<var>temperature
+						<value>27</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C2
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C3
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FS"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C4
+				<vars>
+					<var>temperature
+						<value>27</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FS"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C5
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"FS"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C6
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"NN"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C7
+				<vars>
+					<var>temperature
+						<value>27</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"NN"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C8
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"NN"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C9
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C10
+				<vars>
+					<var>temperature
+						<value>27</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C11
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SF"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C12
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SS"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C13
+				<vars>
+					<var>temperature
+						<value>27</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SS"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">C14
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">gpdk090.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+						<modelsection>"SS"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<disabledtests></disabledtests>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+		</plottingoptions>
+		<tests>
+			<test enabled="1">CSRO_csro_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>csro</value>
+					</option>
+					<option>lib
+						<value>CSRO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<vars>
+					<var>Vctrl
+						<value>1</value>
+					</var>
+				</vars>
+				<origoptions>
+					<option>cell
+						<value>csro</value>
+					</option>
+					<option>lib
+						<value>CSRO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">CSRO_csro_1</test>
+		</checksasserts>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<allcornersenabled>0</allcornersenabled>
+		<allparametersdisabled>1</allparametersdisabled>
+		<overwritehistory>0</overwritehistory>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<allvarsdisabled>1</allvarsdisabled>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<reusesaverunhist>0</reusesaverunhist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C2
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C3
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C4
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C5
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C6
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C7
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C8
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C9
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C10
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C11
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C12
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C13
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C14
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<disabledtests></disabledtests>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">CSRO_csro_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.0</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>Vctrl
+								<value>{Inclusion List}1{Inclusion List}{From/To}Auto:0.1:10:1{From/To}</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">CSRO_csro_1</test>
+				</checksasserts>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<allcornersenabled>0</allcornersenabled>
+				<allparametersdisabled>1</allparametersdisabled>
+				<overwritehistory>0</overwritehistory>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 26 22:24:32 2026</timestamp>
+			<uuid>{cce6ea7d-d553-4fe3-8dc6-276d7da64fd7}</uuid>
+			<resultsname>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cad6_vlsilab_222432098</localpsfdir>
+			<psfdir>/home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CSRO/csro/maestro_1/results/maestro/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C2
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C3
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C4
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C5
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C6
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C7
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C8
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C9
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C10
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C11
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C12
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C13
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C14
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<disabledtests></disabledtests>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">CSRO_csro_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.1</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>Vctrl
+								<value>{Inclusion List}1{Inclusion List}{From/To}Auto:0.1:10:1{From/To}</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">CSRO_csro_1</test>
+				</checksasserts>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<allcornersenabled>0</allcornersenabled>
+				<allparametersdisabled>1</allparametersdisabled>
+				<overwritehistory>0</overwritehistory>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<allvarsdisabled>1</allvarsdisabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 26 22:24:48 2026</timestamp>
+			<uuid>{c357b047-e4f8-4bff-8b85-a94cceca00bd}</uuid>
+			<resultsname>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cad6_vlsilab_222448726</localpsfdir>
+			<psfdir>/home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CSRO/csro/maestro_1/results/maestro/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C2
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C3
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C4
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C5
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C6
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C7
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C8
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C9
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C10
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C11
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C12
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C13
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C14
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<disabledtests></disabledtests>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">CSRO_csro_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.2</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>Vctrl
+								<value>{Inclusion List}1{Inclusion List}{From/To}Auto:0.1:10:1{From/To}</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">CSRO_csro_1</test>
+				</checksasserts>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<allcornersenabled>0</allcornersenabled>
+				<allparametersdisabled>1</allparametersdisabled>
+				<overwritehistory>0</overwritehistory>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<allvarsdisabled>1</allvarsdisabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 26 23:24:16 2026</timestamp>
+			<uuid>{feaa9052-4c01-4207-86d8-7bcd1bc7f75e}</uuid>
+			<resultsname>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cad6_vlsilab_232416594</localpsfdir>
+			<psfdir>/home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CSRO/csro/maestro_1/results/maestro/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C1
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C2
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C3
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C4
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C5
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"FS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C6
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C7
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C8
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"NN"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C9
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C10
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C11
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SF"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C12
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C13
+						<vars>
+							<var>temperature
+								<value>27</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">C14
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">gpdk090.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/home/install/FOUNDRY/analog/90nm/libs.oa22/gpdk090/../../models/spectre/gpdk090.scs</modelfile>
+								<modelsection>"SS"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<disabledtests></disabledtests>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>Auto</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotsignals
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotwaveexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotscalarexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignname
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatesimdate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignvars
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatetemperature
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatescalaroutputs
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatespecmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>directplotmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>directplotafter
+						<value>All Selections Are Made</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>printafter
+						<value>Each Selection</value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<tests>
+					<test enabled="1">CSRO_csro_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>ExplorerRun.0</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>Vctrl
+								<value>1</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>csro</value>
+							</option>
+							<option>lib
+								<value>CSRO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">CSRO_csro_1</test>
+				</checksasserts>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<allcornersenabled>0</allcornersenabled>
+				<allparametersdisabled>1</allparametersdisabled>
+				<overwritehistory>0</overwritehistory>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<allvarsdisabled>1</allvarsdisabled>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<runnabletests>
+					<test>CSRO_csro_1</test>
+				</runnabletests>
+				<vars></vars>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sep 26 23:26:15 2026</timestamp>
+			<uuid>{f0913aae-0347-492c-9a9d-9dbeeebca61e}</uuid>
+			<resultsname>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cad6_vlsilab_232615223</localpsfdir>
+			<psfdir>/home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/CSRO/csro/maestro_1/results/maestro/ExplorerRun.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/ExplorerRun.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

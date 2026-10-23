@@ -1,0 +1,6 @@
+artistResMgrCalcExprSetup("true" "plot" "E0" "getAsciiWave("~/vctrl_freq.txt" 1 2)")
+artistResMgrCalcExprSetup("true" "plot" "E1" "freq(v("/Vosc" ?result "tran") "rising" ?xName "time" ?mode "auto" ?threshold 0.0)")
+artistResMgrCalcExprSetup("true" "plot" "E2" "freq(v("/Vosc" ?result "tran") "rising" ?xName "time" ?mode "auto" ?threshold 0.0)")
+artistResMgrCalcExprSetup("true" "plot" "E3" "freq(VT("/Vosc" ?result "tran") "rising" ?xName "time" ?mode "auto" ?threshold 0.0)")
+artistResMgrCalcExprSetup("true" "plot" "E4" "frequency(VT("/Vosc"))")
+artistResMgrCalcExprSetup("true" "plot" "E5" "(VT("/net2"))")

@@ -1,0 +1,752 @@
+\# Program start time:     UTC 2026.09.26 17:53:57.188
+\# Local time: IST (UTC+05:30) 2026.09.26 23:23:57.188
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2798864 -mpshost cad6 -davinciService DaVinciService_2798864_1790445147 -log /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Job4.log -licenseLockFileName /home/vlsilab/CSRO_PVG/.tmp_vlsilab/.cad6_2798864 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 4
+\# Host name (type):	cad6 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4218 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        627 MB
+\# Available memory:	     23,359 MB
+\# System memory:	     32,105 MB
+\# Maximum memory size:	     31,598 MB
+\# Max mem available:	     23,479 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62624/62624 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsilab
+\o Working Directory:	cad6:/home/vlsilab/CSRO_PVG
+\# Process Id:		2813060
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2798864, host=cad6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 2813060 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [23:23:57.519601] Configured Lic search path (22.01-s002): 5280@cadence
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 2813060' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\# Available memory:         23,358 MB at UTC 2026.09.26 17:54:07.312
+\# Memory report: Maximum memory size now 23,666 MB at UTC 2026.09.26 17:54:07.312
+\# Thread usage report: 34 active threads, active load 1.40 at UTC 2026.09.26 17:54:07.312
+\# Memory report: using         308 MB, process size 2,170 MB at UTC 2026.09.26 17:54:07.312
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.2
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1/results/maestro/Interactive.2.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro_1
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk090/libInit.il ...
+\o 	Loading gpdk090/loadCxt.ile ... done!
+\o 	Loading context 'gpdk090' from library 'gpdk090' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk090' ... done!
+\o 	Loading gpdk090/display.drf ... done!
+\e 	Loading gpdk090/gpdk090_customFilter.il ... *Error* axlRegisterCustomDeviceFilter: too few arguments (2 expected, 0 given) - nil
+\o failed!
+\o 	Loading gpdk090/.simrc ... done!
+\o 	Loading gpdk090/libInitCustomExit.il ... 	Loading Environment Settings ...
+\w *WARNING* envSetVal: Can't set the value of variable 'extractVerifySubstrate',
+\w 	in tool[.partition] 'layout' - it has not been registered.
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk090/gpdk090_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 90nm PDK                       *           
+\o   *                        (gpdk090)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	Version : 4.6
+\o 
+\o 	Build date: 10-FEB-2011
+\o 
+\o done!
+\o Failed to load gpdk090/libInit.il successfully!INFO (ADE-5024): Simulation will use spectre batch mode because the GCC version used by Spectre and Virtuoso are not compatible.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o *Info*    Run start for points ((0 1) (0 2) (0 3) (0 4) (0 5) (0 6)
+\o           (0 7) (0 8) (0 9) (0 10))
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/1/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [23:24:17.216640] Periodic Lic check successful
+\# [23:24:17.216641] Feature usage summary:
+\o Begin Incremental Netlisting Sep 26 23:24:17 2026
+\o End netlisting Sep 26 23:24:17 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 1).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/1/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Memory report: using         466 MB, process size 2,442 MB at UTC 2026.09.26 17:54:18.284
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 2) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/2/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:18 2026
+\o End netlisting Sep 26 23:24:18 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 2).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/2/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 3) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/3/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:20 2026
+\o End netlisting Sep 26 23:24:20 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 3).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/3/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 4) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/4/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:21 2026
+\o End netlisting Sep 26 23:24:21 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 4).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/4/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 5) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/5/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:22 2026
+\o End netlisting Sep 26 23:24:22 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 5).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/5/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 6) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/6/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:23 2026
+\o End netlisting Sep 26 23:24:23 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 6).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/6/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 6) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 7) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/7/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:24 2026
+\o End netlisting Sep 26 23:24:24 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 7).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/7/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 7) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 8) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/8/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:25 2026
+\o End netlisting Sep 26 23:24:25 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 8).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/8/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 8) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 9) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/9/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:26 2026
+\o End netlisting Sep 26 23:24:26 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 9).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/9/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 10) on testbench [ CSRO_csro_1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/10/CSRO_csro_1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 26 23:24:27 2026
+\o End netlisting Sep 26 23:24:27 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ CSRO_csro_1 ] for Point
+\o           ID (0 10).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/CSRO/csro/maestro_1/results/maestro/Interactive.2/10/CSRO_csro_1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 10) on testbench [ CSRO_csro_1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

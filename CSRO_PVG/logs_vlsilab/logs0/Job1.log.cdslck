@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsilab
+HostName                       cad3
+ProcessIdentifier              1148787
+ProcessCreationTime_UTC        1787073730
+ProcessCreationTime_Readable   Tue Aug 18 22:52:10 2026 IST
+AppIdentifier                  /home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Job1.log
+TimeEditLocked                 Tue Aug 18 22:52:10 2026 IST

@@ -1,0 +1,96 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = CSRO
+	Cell         = csro
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = CSRO:csro:1_none_Interactive.0
+	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/test/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/vlsilab/simulation/CSRO/test/adexl/results/data/Interactive.0/1/CSRO:csro:1
+	Results Loc  = /home/vlsilab/simulation/CSRO/test/adexl/results/data
+	Project Dir  = /home/vlsilab/simulation
+	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/test/adexl
+	File Encoding = 0
+
+
+WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [ CSRO:csro:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Vctrl = "0.5"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/vlsilab/simulation/CSRO/test/adexl/results/data/Interactive.0/1/CSRO:csro:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vlsilab/simulation/CSRO/test/adexl/results/data/Interactive.0/1/CSRO:csro:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Aug 20 22:43:05 2026
+WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+compared to the last session in the current run directory. The netlist(s)
+generated in the last netlisting session cannot be reused for incremental
+netlisting. Therefore re-netlisting the design.
+
+End netlisting Aug 20 22:43:05 2026
+
+Netlisting Statistics:
+	Number of components:   14
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ CSRO:csro:1 ] for Point
+          ID (0 1).
+
+Delete psf data in /home/vlsilab/simulation/CSRO/test/adexl/results/data/Interactive.0/1/CSRO:csro:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [ CSRO:csro:1
+          ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

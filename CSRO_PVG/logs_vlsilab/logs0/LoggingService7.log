@@ -1,0 +1,3 @@
+[Logging Service: 7]
+[2026-09-26 23:27:04.679 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/vlsilab/CSRO_PVG/CSRO/csro_tb/maestro/results/maestro"}
+[2026-09-26 23:27:04.680 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "cad6", "processid": 2832748, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/LoggingService7.log"}

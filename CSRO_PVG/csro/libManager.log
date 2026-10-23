@@ -1,0 +1,21 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 10/18/2022 20:11 (sjfdcl1032) $
+\o Sub version:		sub-version  s292 
+\o Arguments:		-unmapped -mpssession virtuoso3275306 -mpshost cad6 
+\o Working Directory:	cad6:/home/vlsilab/CSRO_PVG/CSRO
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/vlsilab/CSRO_PVG/CSRO") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/vlsilab/CSRO_PVG/CSRO/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(346 494 969 440))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

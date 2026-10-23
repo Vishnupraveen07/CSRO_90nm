@@ -1,0 +1,1936 @@
+\# Program start time:     UTC 2026.08.20 18:18:37.958
+\# Local time: IST (UTC+05:30) 2026.08.20 23:48:37.958
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cad3 -beanport 11300 -beanbinlog  -beanLogFile /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/amps_Service16.log -mpssession virtuoso3451179 -mpshost cad3 -davinciService DaVinciService_3451179_1787245833 -axlSession fnxSession4 -axlServiceIdFlag 16 -uuid 96c0960d-6c78-4734-b288-1aff1d4de79b -heartbeat /dev/shm/swift-heartbeat.v0Wlla7ZM7 -log /home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D79EB9B739E06D02C02D0EC7EFC06BC4D5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0C64CBE3B8FAD6CA00001EBE -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cad3 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1024 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        638 MB
+\# Available memory:	     24,474 MB
+\# System memory:	     32,105 MB
+\# Maximum memory size:	     31,588 MB
+\# Max mem available:	     24,594 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62624/62624 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsilab
+\o Working Directory:	cad3:/home/vlsilab/CSRO_PVG
+\# Process Id:		3704487
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3451179, host=cad3). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 3704487 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [23:48:37.519641] Configured Lic search path (22.01-s002): 5280@cadence
+\w *WARNING* The directory: '/home/vlsilab/shriya#2dpiyush#2dlab' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'shriya#2dpiyush#2dlab'.
+\w *WARNING* The directory: '/home/vlsilab/shri_inverter' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'shri_inverter'.
+\# Memory report: using         289 MB, process size 2,149 MB at UTC 2026.08.20 18:18:39.105
+\w *WARNING* The directory: '/home/vlsilab/pk_lab_vlsi' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'pk_lab_vlsi'.
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 3704487' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\# [23:48:39.345273] Periodic Lic check successful
+\# [23:48:39.345274] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-08-20 23:48:39.353 +0530] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "cad3", "processid": 3704487, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\# Available memory:         24,471 MB at UTC 2026.08.20 18:18:48.398
+\# Memory report: Maximum memory size now 24,791 MB at UTC 2026.08.20 18:18:48.398
+\# Thread usage report: 34 active threads, active load 1.40 at UTC 2026.08.20 18:18:48.398
+\o [2026-08-20 23:48:59.407 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "5394"}
+\o [2026-08-20 23:48:59.407 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/home/vlsilab/shriya#2dpiyush#2dlab' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'shriya#2dpiyush#2dlab'.
+\w *WARNING* The directory: '/home/vlsilab/shri_inverter' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'shri_inverter'.
+\w *WARNING* The directory: '/home/vlsilab/pk_lab_vlsi' does not exist
+\w 	but was defined in libFile '/home/vlsilab/cds.lib' for Lib 'pk_lab_vlsi'.
+\o Loading gpdk090/libInit.il ...
+\o 	Loading gpdk090/loadCxt.ile ... done!
+\o 	Loading context 'gpdk090' from library 'gpdk090' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk090' ... done!
+\o 	Loading gpdk090/display.drf ... done!
+\e 	Loading gpdk090/gpdk090_customFilter.il ... *Error* axlRegisterCustomDeviceFilter: too few arguments (2 expected, 0 given) - nil
+\o failed!
+\o 	Loading gpdk090/.simrc ... done!
+\o 	Loading gpdk090/libInitCustomExit.il ... 	Loading Environment Settings ...
+\w *WARNING* envSetVal: Can't set the value of variable 'extractVerifySubstrate',
+\w 	in tool[.partition] 'layout' - it has not been registered.
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk090/gpdk090_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 90nm PDK                       *           
+\o   *                        (gpdk090)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	Version : 4.6
+\o 
+\o 	Build date: 10-FEB-2011
+\o 
+\o done!
+\# Memory report: using         423 MB, process size 2,349 MB at UTC 2026.08.20 18:19:01.309
+\o Failed to load gpdk090/libInit.il successfully!
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Aug 20 23:49:01 2026
+\o Loading json.cxt 
+\o End netlisting Aug 20 23:49:01 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   14
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:01.397 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-20 23:49:02.399 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "9025"}
+\o [2026-08-20 23:49:02.399 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:02.647 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 742.8672 MBytes, peak memory used: 742.8672 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:02.648 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:02.648 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "11875"}
+\o [2026-08-20 23:49:02.649 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:02.763 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 742.8672 MBytes, peak memory used: 742.8672 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:02.763 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:02.764 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "13405"}
+\o [2026-08-20 23:49:02.764 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:02.876 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 743.3008 MBytes, peak memory used: 743.3008 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:02.876 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:02.877 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "14935"}
+\o [2026-08-20 23:49:02.877 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:02.994 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.3008 MBytes, peak memory used: 745.3008 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:02.995 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:02.995 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "16465"}
+\o [2026-08-20 23:49:02.995 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.112 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.3008 MBytes, peak memory used: 745.3008 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.112 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:03.113 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "17995"}
+\o [2026-08-20 23:49:03.113 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.230 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.3008 MBytes, peak memory used: 745.3008 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.230 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:03.231 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "19525"}
+\o [2026-08-20 23:49:03.231 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.347 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.5547 MBytes, peak memory used: 745.5547 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.347 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:03.348 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "21055"}
+\o [2026-08-20 23:49:03.348 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.543 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.5547 MBytes, peak memory used: 745.5547 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.544 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:03.544 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "22585"}
+\o [2026-08-20 23:49:03.544 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.666 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.5547 MBytes, peak memory used: 745.5547 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.666 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:49:03.667 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "24115"}
+\o [2026-08-20 23:49:03.667 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:49:03.785 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 745.5547 MBytes, peak memory used: 745.5547 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:49:03.785 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:25.947 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "25651"}
+\o [2026-08-20 23:53:25.947 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.2
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.2.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 20 23:53:27 2026
+\o End netlisting Aug 20 23:53:27 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:27.188 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-20 23:53:28.189 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "27077"}
+\o [2026-08-20 23:53:28.189 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.2
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.2.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:28.551 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:28.551 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:28.552 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "30405"}
+\o [2026-08-20 23:53:28.552 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:28.691 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:28.691 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:28.691 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "31935"}
+\o [2026-08-20 23:53:28.691 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:28.828 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:28.829 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:28.829 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "33465"}
+\o [2026-08-20 23:53:28.829 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:28.964 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:28.964 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:28.965 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "34995"}
+\o [2026-08-20 23:53:28.965 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.107 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.107 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:29.107 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "36525"}
+\o [2026-08-20 23:53:29.107 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.252 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.252 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:29.253 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "38055"}
+\o [2026-08-20 23:53:29.253 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.393 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.393 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:29.394 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "39585"}
+\o [2026-08-20 23:53:29.394 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.534 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 748.8242 MBytes, peak memory used: 748.8242 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.534 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:29.535 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "41115"}
+\o [2026-08-20 23:53:29.535 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.672 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.0820 MBytes, peak memory used: 749.0820 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.673 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:53:29.673 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.2", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "42645"}
+\o [2026-08-20 23:53:29.673 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.2/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:53:29.809 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.0820 MBytes, peak memory used: 749.0820 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:53:29.810 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:16.190 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "44181"}
+\o [2026-08-20 23:55:16.190 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.3
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.3.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 20 23:55:17 2026
+\o End netlisting Aug 20 23:55:17 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:17.478 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-20 23:55:18.480 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "44498"}
+\o [2026-08-20 23:55:18.480 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.3
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.3.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:18.841 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:18.841 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:18.842 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "48935"}
+\o [2026-08-20 23:55:18.842 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:18.982 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:18.982 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:18.983 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "50465"}
+\o [2026-08-20 23:55:18.983 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.121 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.121 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.122 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "51995"}
+\o [2026-08-20 23:55:19.122 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.256 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.256 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.257 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "53525"}
+\o [2026-08-20 23:55:19.257 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.397 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.397 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.398 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "55055"}
+\o [2026-08-20 23:55:19.398 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.536 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.536 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.537 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "56585"}
+\o [2026-08-20 23:55:19.537 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.673 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.673 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.673 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "58115"}
+\o [2026-08-20 23:55:19.674 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.808 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.808 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.809 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "59645"}
+\o [2026-08-20 23:55:19.809 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:19.946 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:19.946 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:55:19.947 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.3", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "61175"}
+\o [2026-08-20 23:55:19.947 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.3/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:55:20.083 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 749.5977 MBytes, peak memory used: 749.5977 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:55:20.084 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:24.253 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "62711"}
+\o [2026-08-20 23:56:24.253 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Aug 20 23:56:25 2026
+\o End netlisting Aug 20 23:56:25 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   14
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:25.535 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-20 23:56:26.538 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "63028"}
+\o [2026-08-20 23:56:26.538 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:26.806 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:26.807 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:26.808 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "66826"}
+\o [2026-08-20 23:56:26.808 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:26.925 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:26.925 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:26.926 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "68356"}
+\o [2026-08-20 23:56:26.926 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.043 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.043 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.044 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "69886"}
+\o [2026-08-20 23:56:27.044 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.157 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.158 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.158 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "71416"}
+\o [2026-08-20 23:56:27.158 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.277 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.278 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.278 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "72946"}
+\o [2026-08-20 23:56:27.278 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.397 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.397 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.398 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "74476"}
+\o [2026-08-20 23:56:27.398 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.518 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.518 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.519 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "76006"}
+\o [2026-08-20 23:56:27.519 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.632 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.633 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.633 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "77536"}
+\o [2026-08-20 23:56:27.633 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.757 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.757 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:27.758 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "79066"}
+\o [2026-08-20 23:56:27.758 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:27.873 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.3438 MBytes, peak memory used: 751.3438 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:56:27.874 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:56:57.956 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "80602"}
+\o [2026-08-20 23:56:57.957 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/psf/CSRO_csro_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Aug 20 23:56:59 2026
+\o End netlisting Aug 20 23:56:59 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   14
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:56:59.246 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-20 23:57:00.247 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "82028"}
+\o [2026-08-20 23:57:00.247 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:00.501 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:00.501 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:00.502 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "84717"}
+\o [2026-08-20 23:57:00.502 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:00.628 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:00.628 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:00.628 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "86247"}
+\o [2026-08-20 23:57:00.629 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:00.783 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:00.783 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:00.784 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "87777"}
+\o [2026-08-20 23:57:00.784 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:00.901 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:00.901 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:00.902 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "89307"}
+\o [2026-08-20 23:57:00.902 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.022 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.022 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:01.023 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "90837"}
+\o [2026-08-20 23:57:01.023 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.139 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.139 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:01.140 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "92367"}
+\o [2026-08-20 23:57:01.140 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.256 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.256 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:01.257 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "93897"}
+\o [2026-08-20 23:57:01.257 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.385 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.385 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:01.385 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "95427"}
+\o [2026-08-20 23:57:01.386 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.504 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.504 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-20 23:57:01.505 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "96957"}
+\o [2026-08-20 23:57:01.505 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/ExplorerRun.0/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-20 23:57:01.621 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 751.4297 MBytes, peak memory used: 751.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-20 23:57:01.622 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:41.797 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "98493"}
+\o [2026-08-21 00:01:41.797 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.4
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.4.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/psf/CSRO_csro_1
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 21 00:01:43 2026
+\o End netlisting Aug 21 00:01:43 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   14
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:43.087 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "CSRO_csro_1", "testnameKey": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.089 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "98810"}
+\o [2026-08-21 00:01:44.089 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = CSRO
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.4
+\o 	Results DB   = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro/results/maestro/Interactive.4.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/1/CSRO_csro_1
+\o 	Results Loc  = /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/CSRO_PVG/CSRO/csro/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/1/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/1/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:44.419 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 1, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:44.419 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.420 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "103276"}
+\o [2026-08-21 00:01:44.420 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/2/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/2/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:44.560 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 2, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:44.560 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.561 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "104807"}
+\o [2026-08-21 00:01:44.561 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/3/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/3/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:44.699 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 3, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:44.699 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.699 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "106338"}
+\o [2026-08-21 00:01:44.699 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.3"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/4/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/4/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:44.840 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 4, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:44.840 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.841 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "107869"}
+\o [2026-08-21 00:01:44.841 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.4"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/5/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/5/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:44.981 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 5, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:44.981 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:44.981 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "109400"}
+\o [2026-08-21 00:01:44.981 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/6/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/6/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:45.122 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 6, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:45.122 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:45.123 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "110931"}
+\o [2026-08-21 00:01:45.123 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.6"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/7/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/7/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:45.258 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 7, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:45.258 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:45.259 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "112462"}
+\o [2026-08-21 00:01:45.259 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.7"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/8/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/8/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:45.431 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 8, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:45.431 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:45.432 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "113993"}
+\o [2026-08-21 00:01:45.432 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.8"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/9/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/9/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:45.570 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 9, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:45.571 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "CSRO_csro_1"}
+\o [2026-08-21 00:01:45.571 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "CSRO_csro_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.4", "logFile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log", "logFileSize": "115524"}
+\o [2026-08-21 00:01:45.571 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "0.9"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/10/CSRO_csro_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/CSRO/csro/maestro/results/maestro/Interactive.4/10/CSRO_csro_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-08-21 00:01:45.712 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 752.4297 MBytes, peak memory used: 752.4297 MBytes {"hostname": "cad3", "processid": 3704487, "testname": "CSRO_csro_1", "point": 10, "logfile": "/home/vlsilab/CSRO_PVG/logs_vlsilab/logs0/Service16.log"}
+\o [2026-08-21 00:01:45.713 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "CSRO_csro_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [00:06:48.404488] Cdslmd servers:5280@cadence
+\# [00:06:48.404496] Feature usage summary:
+\# Memory report: on exit            453 MB, process size 2,384 MB at UTC 2026.08.20 18:36:48.928
+\# Memory report: peak usage         453 MB, process size 2,384 MB

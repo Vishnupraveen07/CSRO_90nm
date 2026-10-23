@@ -1,0 +1,54 @@
+* ============================================================
+* 3-Stage Current-Starved Ring VCO  -  gpdk090
+* Recreated from schematic image (1000135457.jpg)
+* ============================================================
+* NOTES BEFORE YOU IMPORT:
+*  - Ring stages (PM0/PM1/PM2, PM3/PM4/PM5, NM0/NM1/NM2) are read
+*    with high confidence from the image.
+*  - Bias branch (PM11, NM4, NM3) is my best-effort read:
+*       Vctrl -> NM4 gate (sets reference current)
+*       PM11  -> diode-connected PMOS (drain=gate=VBP), mirrors
+*                current from NM4 into VBP
+*       VBP   -> fans out to gates of PM0, PM1, PM2 (current
+*                sources for the 3 ring stages)
+*       NM3   -> stacked below NM4, gate tied to VBP as drawn
+*                (please verify this against your original
+*                schematic in Cadence - lowest-confidence node)
+*  - Vosc is taken from the output of the 3rd stage (out3).
+* ============================================================
+
+.SUBCKT RING_VCO_3STAGE VDD GND VCTRL VOSC
+
+* ---------------- Bias generator branch ----------------
+MPM11  VBP   VBP   VDD   VDD   gpdk090_pmos1v  W=190n  L=100n  M=1
+MNM4   VBP   VCTRL NBIAS NBIAS gpdk090_nmos1v  W=320n  L=100n  M=1
+MNM3   NBIAS VBP   GND   GND   gpdk090_nmos1v  W=320n  L=100n  M=1
+
+* ---------------- Stage 1 ----------------
+MPM0   N1    VBP   VDD   VDD   gpdk090_pmos1v  W=190n  L=100n  M=1
+MPM3   OUT1  OUT3  N1    N1    gpdk090_pmos1v  W=640n  L=100n  M=1
+MNM0   OUT1  OUT3  GND   GND   gpdk090_nmos1v  W=320n  L=100n  M=1
+
+* ---------------- Stage 2 ----------------
+MPM1   N2    VBP   VDD   VDD   gpdk090_pmos1v  W=190n  L=100n  M=1
+MPM4   OUT2  OUT1  N2    N2    gpdk090_pmos1v  W=640n  L=100n  M=1
+MNM1   OUT2  OUT1  GND   GND   gpdk090_nmos1v  W=320n  L=100n  M=1
+
+* ---------------- Stage 3 ----------------
+MPM2   N3    VBP   VDD   VDD   gpdk090_pmos1v  W=190n  L=100n  M=1
+MPM5   OUT3  OUT2  N3    N3    gpdk090_pmos1v  W=640n  L=100n  M=1
+MNM2   OUT3  OUT2  GND   GND   gpdk090_nmos1v  W=320n  L=100n  M=1
+
+* Output tap
+VOUT_TAP OUT3 VOSC 0
+
+.ENDS RING_VCO_3STAGE
+
+* ============================================================
+* Optional testbench (matches V0=1.8V supply, V1=1V -> Vctrl)
+* Uncomment / adjust if you want a standalone sim-ready netlist
+* ============================================================
+* VDD_SRC   VDD   0   DC 1.8
+* VCTRL_SRC VCTRL 0   DC 1.0
+* XVCO      VDD 0 VCTRL VOSC  RING_VCO_3STAGE
+* .END
